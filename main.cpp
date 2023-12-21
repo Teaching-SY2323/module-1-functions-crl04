@@ -8,20 +8,22 @@ int main()
 {
     int x, y;
     cout
-        << "-- Add 2 Values --\n"
-        << "Enter x Values: ";
+         << "-- Add 2 Values --\n";
+    cout << "Enter x Values: ";
     cin >> x;
     cout << "Enter y Value: ";
     cin >> y;
 
     cout << " Are equal to: ";
 
-    cout << Add2Values(x, y)
+    cout << Add2Values(x, y);
 
     return 0;
 }
 
 int Add2Values(int x, int y)
 {
-    x + y;
+ return x + y;
 }
+
+
